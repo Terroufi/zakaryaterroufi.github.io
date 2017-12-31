@@ -1,0 +1,169 @@
+.slideanim {visibility:hidden;}
+.slideUp {
+    /* The name of the animation */
+    -webkit-animation: slideUp 2s;
+    -moz-animation: slideUp 2s;
+    -o-animation: slideUp 2s;
+    animation: slideUp 2s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+/*-------------------------------------------*/
+.slideDow {
+    /* The name of the animation */
+    -webkit-animation: slideDow 2s forwards;
+    -moz-animation: slideDow 2s forwards;
+    -o-animation: slideDow 2s forwards;
+    animation: slideDow 2s forwards;
+}
+@keyframes slideDow {
+    0% {
+        opacity: 0;
+        transform: translateY(-20%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slideDow {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+/*-------------------------------------------*/
+.slideRight {
+    /* The name of the animation */
+    -webkit-animation: slideRight 2s forwards;
+    -moz-animation: slideRight 2s forwards;
+    -o-animation: slideRight 2s forwards;
+    animation: slideRight 2s forwards;
+}
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    } 
+}
+@-webkit-keyframes slideRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(20%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+/*-------------------------------------------*/
+.slideLeft {
+    /* The name of the animation */
+    -webkit-animation: slideLeft 2s forwards;
+    -moz-animation: slideLeft 2s forwards;
+    -o-animation: slideLeft 2s forwards;
+    animation: slideLeft 2s forwards;
+}
+@keyframes slideLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    } 
+}
+@-webkit-keyframes slideLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+/*-------------------------------------------*/
+.scalGrow {
+    /* The name of the animation */
+    -webkit-animation: scalGrow 2s forwards;
+    -moz-animation: scalGrow 2s forwards;
+    -o-animation: scalGrow 2s forwards;
+    animation: scalGrow 2s forwards;
+}
+@keyframes scalGrow {
+    0% {
+        opacity: 0;
+        transform: scale(0, 0);
+    } 
+    100% {
+        opacity: 1;
+        transform: scale(1, 1);
+    } 
+}
+@-webkit-keyframes scalGrow {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0, 0);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1, 1);
+    }
+}
+/*--------Animate Progress Bar------------*/
+progAnim{
+    -webkit-animation: progAnim 2s forwards;
+    -moz-animation: progAnim 2s forwards;
+    -o-animation: progAnim 2s forwards;
+    animation: progAnim 2s forwards;
+}
+@keyframes progAnim {
+    0% {
+        width: 0%;
+    } 
+    100% {
+        
+        width: 60%;
+    } 
+}
+@-webkit-keyframes progAnim {
+    0% {
+        
+        width: 60%;
+    } 
+    100% {
+        
+        width: 60%;
+    }
+}
